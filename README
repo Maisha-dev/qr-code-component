@@ -1,0 +1,89 @@
+# Frontend Mentor - QR code component solution
+
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+### Screenshot
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+First i created my html components and i began to style it from top to bottom. i kept on styling till i get a similar result with the design provided.
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+
+### What I learned
+
+This project helped me to practice what i have learnt so far in html and css. It is an opportunity for me to reflect and research thing i don't understand. I also learnt a new topic like adding box shadow to the card.
+
+```html
+<div class="card">
+  <img src="images/image-qr-code.png" />
+  <p class="intro">Improve your front-end skills by building projects</p>
+  <p class="content">
+    Scan the QR code to visit Frontend Mentor and take your coding skills to the
+    next level
+  </p>
+</div>
+```
+
+```css
+.card {
+  background-color: hsl(0, 19%, 93%);
+  width: 240px;
+  height: 380px;
+  border-radius: 10px;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.2);
+}
+```
+
+### Continued development
+
+I still want to focus on the use of shadow, since this is my first practice of it. I also want to understand better on using margin and padding, and also css flexbox
+
+### Useful resources
+
+- [stackoverflow](https://stackoverflow.com) - This helped me when i wanted align the card.My align items was not working, and it was because i didn't give my container a height. I really liked this pattern and will use it going forward.
+- [google](https://www.google.com) - I used it to learn how to add shadow to the card, since this the first time i am working with shadow. I'd recommend it to anyone still learning this concept.
+
+**
+stackoverflow
+google
+**
+
+## Author
+
+- Website - [Hamzat Aishat](https://github.com/Maisha-dev)
+- Frontend Mentor - [Maisha](https://www.frontendmentor.io/profile/Maisha-dev)
+- Twitter - [@hamza*aisha*](https://x.com/hamza_aisha_)
+
+## Acknowledgments
+
+My sincere appriciation goes to Abdullah Safe-Ogbera for always making sure i work towards being a my better self.Justice gave me the course i used to start my web development journey when i was so lost, i am grateful. I am thankful to Igwe for sending me the link to frontend mentor, Mrs Tawakalt also told me to practice with this course i deeply appriciate. To myself, i am so proud of me for keeping the momentum even when there is no motivation. I know this is just a simple project, but the last year me cant do this. I hope i keep getting better and i am loking forward to the day i will look back and say this was my little begining. Cheers to this.
